@@ -1,10 +1,53 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="zh-cmn-Hans">
 <head>
   <meta charset="UTF-8">
-  <title>呉真的主页</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>呉真的主页 | 生命在于折腾</title>
 </head>
 <body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 class="text-center text-primary">呉真的主页</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-3">
+      <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+        <a class="nav-link text-sm-center active" data-toggle="pill" href="#about" role="tab"
+           aria-controls="about-tab" aria-selected="true">关于</a>
+        <a class="nav-link text-sm-center" data-toggle="pill" href="#projects" role="tab"
+           aria-controls="projects-tab" aria-selected="false">项目</a>
+        <a class="nav-link text-sm-center" data-toggle="pill" href="#education" role="tab"
+           aria-controls="education-tab" aria-selected="false">学历</a>
+        <a class="nav-link text-sm-center" data-toggle="pill" href="#skills" role="tab"
+           aria-controls="skills-tab" aria-selected="false">技能</a>
+        <a class="nav-link text-sm-center" data-toggle="pill" href="#contact" role="tab"
+           aria-controls="contact-tab" aria-selected="false">联系</a>
+      </div>
+    </div>
 
+    <div class="col-9">
+      <div class="tab-content" id="v-pills-tabContent">
+        <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
+          <div class="kt-about">
+
+          </div>
+        </div>
+        <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="experience-tab">项目</div>
+        <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="messages-tab">学历</div>
+        <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">技能</div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">联系</div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
