@@ -16,13 +16,23 @@ h1 {
     padding: 3em 0 0;
 }
 
+#kt-nav {
+    background: rgba(60, 90, 120, 0.4);
+    padding: 1.5em;
+}
+
+#kt-tab{
+    background: rgba(60, 90, 110, 0.6);
+    padding: 1.5em;
+}
+
 /*-- footer --*/
-#footer {
+#kt-footer {
     margin: 2em 0;
     text-align: center;
 }
 
-#footer p {
+#kt-footer p {
     font-size: 1em;
     color: #fff;
     line-height: 1.8em;
@@ -30,7 +40,7 @@ h1 {
     font-weight: 400;
 }
 
-#footer p a {
+#kt-footer p a {
     color: #ddd;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -39,7 +49,13 @@ h1 {
     -ms-transition: 0.5s all;
 }
 
-#footer p a:hover {
+#kt-footer p a:hover {
     color: #FE7200;
 }
 /*-- end of footer --*/
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
