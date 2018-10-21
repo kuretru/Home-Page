@@ -153,8 +153,8 @@ img {
 }
 
 .kt-contact ul li .value a {
-     color: #CCC;
- }
+    color: #CCC;
+}
 
 .kt-social {
     margin-top: 40px;
@@ -172,53 +172,10 @@ img {
     float: left;
 }
 
-.kt-social ul li a span {
-    vertical-align: middle;
-    font-size: 1em;
-}
-
-.kt-social ul li span.text {
-    font-size: 1em;
-    padding-left: 0.5em;
-}
-
-.kt-social ul li span.icons {
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-}
-
-.kt-social ul li.blog {
-    /*background-color: #B9CCE6;*/
-    background: rgba(26, 45, 39, 0.4);
-}
-
-.kt-social ul li.blog span.icons {
-    background: url("../images/blog.png") no-repeat #E84F46 center;
-}
-
-.kt-social ul li.github {
-    background-color: #FAC091;
-}
-
-.kt-social ul li.github span.icons {
-    background: url("../images/github.png") no-repeat center;
-}
-
-.kt-social ul li.qq {
-    background-color: #E66A0E;
-}
-
-.kt-social ul li.qq span.icons {
-    background: url("../images/qq.png") no-repeat center;
-}
-
-.kt-social ul li.weibo {
-    background-color: #FCC100;
-}
-
-.kt-social ul li.weibo span.icons {
-    background: url("../images/weibo.png") no-repeat center;
+.kt-social .icons {
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.50);
 }
 
 /* end of contact */
