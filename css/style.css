@@ -1,5 +1,5 @@
 body {
-    background: url("/images/background.jpg") no-repeat center fixed;
+    background: url("../images/background.jpg") no-repeat center fixed;
     background-size: cover;
     height: 100%;
 }
@@ -12,19 +12,216 @@ h1 {
     font-family: 'Microsoft YaHei', sans-serif;
 }
 
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* nav color */
+.nav a {
+    color: #FFA631;
+}
+
+.nav a:hover {
+    color: #CA6924;
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgba(255, 166, 39, 0.8);
+}
+
+/* end of nav color */
+
 .container {
     padding: 3em 0 0;
 }
 
+#kt-main {
+    height: 453px;
+}
+
 #kt-nav {
+    background: rgba(26, 45, 39, 0.4);
+    padding: 1.5em;
+}
+
+#kt-nav div {
+    height: 100%;
+}
+
+#kt-nav div a {
+    height: 20%;
+    overflow: hidden;
+}
+
+#kt-tab {
     background: rgba(60, 90, 120, 0.4);
     padding: 1.5em;
 }
 
-#kt-tab{
-    background: rgba(60, 90, 110, 0.6);
-    padding: 1.5em;
+/* about */
+.kt-avatar {
+    width: 42.5%;
+    float: left;
+    margin-right: 2.5%;
 }
+
+.kt-information {
+    width: 55%;
+    float: left;
+    text-align: left;
+    padding-top: 25px;
+}
+
+.kt-information p {
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.kt-information .doing {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 0.5em;
+    font-size: 0.8em;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* end of about */
+
+/* skill */
+.kt-skill p {
+    font-size: 1em;
+    color: #fff;
+    line-height: 1.8em;
+}
+
+.kt-skill .progress {
+    height: 6px;
+    margin-bottom: 3em;
+    transition: width 1s;
+}
+
+.kt-skill .progress-bar {
+    background: #FFA631;
+}
+
+/* end of skill */
+
+/* contact */
+.kt-contact {
+    padding: 10% 0 0 10%;
+}
+
+.kt-contact ul {
+    display: block;
+    letter-spacing: 0.4px;
+}
+
+.kt-contact ul li {
+    padding: 0 0 5% 0;
+}
+
+.kt-contact ul li .key {
+    font-family: 'Montserrat', sans-serif;
+    width: 20%;
+    float: left;
+    font-size: 1em;
+    color: #EEE;
+}
+
+.kt-contact ul li .separator {
+    width: 10%;
+    float: left;
+    text-align: center;
+    font-size: 1em;
+    color: #CCC;
+}
+
+.kt-contact ul li .value {
+    width: 60%;
+    float: left;
+    font-size: 1em;
+    color: #CCC;
+}
+
+.kt-contact ul li .value a {
+     color: #CCC;
+ }
+
+.kt-social {
+    margin-top: 40px;
+}
+
+.kt-social ul {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.kt-social ul li {
+    width: 25%;
+    display: block;
+    float: left;
+}
+
+.kt-social ul li a span {
+    vertical-align: middle;
+    font-size: 1em;
+}
+
+.kt-social ul li span.text {
+    font-size: 1em;
+    padding-left: 0.5em;
+}
+
+.kt-social ul li span.icons {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.kt-social ul li.blog {
+    /*background-color: #B9CCE6;*/
+    background: rgba(26, 45, 39, 0.4);
+}
+
+.kt-social ul li.blog span.icons {
+    background: url("../images/blog.png") no-repeat #E84F46 center;
+}
+
+.kt-social ul li.github {
+    background-color: #FAC091;
+}
+
+.kt-social ul li.github span.icons {
+    background: url("../images/github.png") no-repeat center;
+}
+
+.kt-social ul li.qq {
+    background-color: #E66A0E;
+}
+
+.kt-social ul li.qq span.icons {
+    background: url("../images/qq.png") no-repeat center;
+}
+
+.kt-social ul li.weibo {
+    background-color: #FCC100;
+}
+
+.kt-social ul li.weibo span.icons {
+    background: url("../images/weibo.png") no-repeat center;
+}
+
+/* end of contact */
 
 /*-- footer --*/
 #kt-footer {
@@ -52,10 +249,11 @@ h1 {
 #kt-footer p a:hover {
     color: #FE7200;
 }
+
 /*-- end of footer --*/
 
-@media (min-width: 1200px) {
-    .container{
-        max-width: 970px;
+@media (min-width: 992px) {
+    .container {
+        max-width: 750px;
     }
 }

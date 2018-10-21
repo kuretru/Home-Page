@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="呉真, 呉真的主页">
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -17,11 +18,11 @@
     </div>
   </div>
 
-  <div class="row">
+  <div id="kt-main" class="row">
     <div id="kt-nav" class="col-3">
       <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
         <a class="nav-link text-sm-center active" data-toggle="pill" href="#about" role="tab"
-           aria-controls="about-tab" aria-selected="true">关于</a>
+           aria-controls="about-tab" aria-selected="true"><span>关于</span></a>
         <a class="nav-link text-sm-center" data-toggle="pill" href="#projects" role="tab"
            aria-controls="projects-tab" aria-selected="false">项目</a>
         <a class="nav-link text-sm-center" data-toggle="pill" href="#education" role="tab"
@@ -34,14 +35,117 @@
     </div>
 
     <div id="kt-tab" class="col-9">
-      <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-content">
         <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
-          <div class="about">
+          <div class="kt-about">
+            <div class="kt-avatar">
+              <img src="images/me.jpg"/>
+            </div>
+            <div class="kt-information">
+              <p>呉真目前<s>计算机网络</s>CS专业大四在读，白羊座。预备役码农、后端攻城狮。关注网络安全、关注科技前沿。
+                喜欢计算机，喜欢自己动手。享受研究、享受折腾的感觉。爱好看电影、爱好电脑外设。
+                喜好自由、喜好驾驶，梦想自己开车带着最重要的人环游世界，探索未知。
+                轻度强迫症患者，轻度拖延症患者。
+              </p>
+              <div class="doing">
+                <span>备战考研中</span>
+              </div>
+            </div>
           </div>
-          <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="experience-tab">项目</div>
-          <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="messages-tab">学历</div>
-          <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">技能</div>
-          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">联系</div>
+        </div>
+        <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="experience-tab">项目</div>
+        <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="messages-tab">学历</div>
+        <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+          <div class="kt-skill">
+            <p>Linux</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 85%"></div>
+            </div>
+            <p>Java：Spring Boot</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%"></div>
+            </div>
+            <p>Python</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 55%"></div>
+            </div>
+            <p>DB：MySQL, Redis</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 60%"></div>
+            </div>
+            <p>协作：Git</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <div class="kt-contact">
+            <ul>
+              <li>
+                <div class="key">姓名</div>
+                <div class="separator">:</div>
+                <div class="value">呉真</div>
+                <div class="clearfix"></div>
+              </li>
+              <li>
+                <div class="key">出生年月</div>
+                <div class="separator">:</div>
+                <div class="value">1997.04</div>
+                <div class="clearfix"></div>
+              </li>
+              <li>
+                <div class="key">邮箱</div>
+                <div class="separator">:</div>
+                <div class="value">kuretru#gmail.com</a></div>
+                <div class="clearfix"></div>
+              </li>
+              <li>
+                <div class="key">博客</div>
+                <div class="separator">:</div>
+                <div class="value"><a href="https://blog.kuretru.com/" target="_blank">https://blog.kuretru.com/</a>
+                </div>
+                <div class="clearfix"></div>
+              </li>
+              <li>
+                <div class="key">GitHub</div>
+                <div class="separator">:</div>
+                <div class="value"><a href="https://github.com/kuretru" target="_blank">https://github.com/kuretru</a>
+                </div>
+                <div class="clearfix"></div>
+              </li>
+            </ul>
+          </div>
+          <div class="kt-social">
+            <ul>
+              <li class="blog">
+                <a href="https://blog.kuretru.com/" target="_blank">
+                  <span class="icons"></span>
+                  <span class="text">博客</span>
+                </a>
+              </li>
+              <li class="github">
+                <a href="https://github.com/kuretru" target="_blank">
+                  <span class="icons"></span>
+                  <span class="text">GitHub</span>
+                </a>
+              </li>
+              <li class="qq">
+                <a href="http://sighttp.qq.com/authd?IDKEY=80af9060e67d97a7ef3db2ab1371b4dbe7ffcb0de85d1f3b"
+                   target="_blank">
+                  <span class="icons"></span>
+                  <span class="text">QQ</span>
+                </a>
+              </li>
+              <li class="weibo">
+                <a href="https://weibo.com/kuretru"
+                   target="_blank">
+                  <span class="icons"></span>
+                  <span class="text">微博</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -50,8 +154,9 @@
   <div class="row">
     <div class="col-12">
       <div id="kt-footer">
-        <p><a href="mailto:kuretru@gmail.com">呉真</a>
-          © Oct. 2018 All rights reserved. | Design by
+        <p>呉真 © Oct. 2018
+          <a href="https://kuretru.com" target="_blank">kuretru.com</a>
+          All rights reserved. | Design by
           <a href="https://github.com/kuretru/Home-Page" target="_blank">呉真</a>
           | Powered by
           <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></p>
