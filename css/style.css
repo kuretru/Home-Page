@@ -78,6 +78,10 @@ img {
     height: 100%;
 }
 
+.tab-pane {
+    height: 100%;
+}
+
 /* about */
 .kt-avatar {
     float: left;
@@ -112,14 +116,16 @@ img {
 
 /* end of about */
 
+.block {
+    height: 100px;
+    width: 100%;
+}
+
 .coming-soon {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     height: 125px;
-    margin-left: auto;
-    margin-top: 50%;
-    margin-right: auto;
-    transform: translateY(-125px);
+    margin: 0 auto;
     width: 200px;
 }
 
@@ -140,12 +146,10 @@ img {
 .kt-skill .progress {
     height: 6px;
     margin-bottom: 3em;
-    transition: width 1s;
 }
 
 .kt-skill .progress-bar {
     background: #FFA631;
-    transition: width 1s;
 }
 
 /* end of skill */
