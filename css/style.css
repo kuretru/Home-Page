@@ -45,7 +45,7 @@ img {
 /* end of nav color */
 
 .container {
-    padding: 3em 0 0;
+    padding: 3em 0 0 0;
 }
 
 #kt-main {
@@ -83,20 +83,20 @@ img {
 }
 
 /* about */
-.kt-avatar {
+.kt-about .kt-avatar {
     float: left;
     margin-right: 2.5%;
     width: 42.5%;
 }
 
-.kt-information {
+.kt-about .kt-information {
     float: left;
     padding-top: 25px;
     text-align: left;
     width: 55%;
 }
 
-.kt-information p {
+.kt-about .kt-information p {
     color: rgba(255, 255, 255, 0.7);
     font-size: 1em;
     font-weight: 300;
@@ -105,7 +105,7 @@ img {
     text-align: left;
 }
 
-.kt-information .doing {
+.kt-about .kt-information .doing {
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.9);
     font-size: 0.8em;
@@ -116,12 +116,12 @@ img {
 
 /* end of about */
 
-.block {
+.kt-project .block {
     height: 100px;
     width: 100%;
 }
 
-.coming-soon {
+.kt-project .coming-soon {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
     height: 125px;
@@ -129,7 +129,7 @@ img {
     width: 200px;
 }
 
-.coming-soon p {
+.kt-project .coming-soon p {
     color: white;
     line-height: 800%;
     text-align: center;
@@ -251,5 +251,75 @@ img {
 @media (max-width: 768px) {
     .kt-contact {
         padding: 10% 0 0 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .flex-column {
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+    }
+
+    .row {
+        margin-left: unset;
+        margin-right: unset;
+    }
+
+    #kt-main {
+        height: 400px;
+        margin: unset;
+    }
+
+    #kt-nav {
+        height: 70px;
+        padding: 0;
+    }
+
+    #kt-nav div a {
+        font-size: 0.8em;
+        height: 100%;
+        text-align: center;
+        width: 20%;
+    }
+
+    .kt-about .kt-avatar {
+        display: none;
+    }
+
+    .kt-about .kt-information {
+        padding-top: unset;
+        width: 100%;
+    }
+
+    .kt-project {
+        height: 314px;
+    }
+
+    .kt-skill .progress {
+        margin-bottom: 1em;
+    }
+
+    .kt-contact {
+        padding: 5% 0 0 2%;
+    }
+
+    .kt-contact ul {
+        padding: unset;
+    }
+
+    .kt-contact ul li .value {
+        width: auto;
+    }
+
+    .kt-social {
+        margin-top: 26px;
+    }
+
+    .kt-social ul {
+        margin: unset;
+    }
+
+    .kt-social .icons {
+        width: 40px;
     }
 }
