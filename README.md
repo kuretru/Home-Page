@@ -1,6 +1,7 @@
 # Home-Page
 **呉真的个人主页**  
-演示：[呉真的主页]{https://www.i5zhen.com/)  
+演示：[呉真的主页](https://www.i5zhen.com/)  
+项目地址：[Github](https://github.com/kuretru/Home-Page)  
 
 ### 特点 
 * 基于BootStrap4
